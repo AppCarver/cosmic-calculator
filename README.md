@@ -1,24 +1,18 @@
 # COSMIC Calculator
 
-An educational Rust 2024 project with the eventual goal of building a native
-calculator for the System76 COSMIC desktop.
+An early-stage native calculator project for the COSMIC desktop, generated from
+[System76’s official COSMIC application template](https://github.com/pop-os/cosmic-app-template).
 
-The project owner is learning Rust through incremental, hands-on development.
-We will develop and test the calculator engine before introducing libcosmic and
-a graphical interface. AI tools assist with planning, review, and mechanical
-tasks; the learner writes the core learning code.
+The application currently contains the template’s example pages and timer.
+Calculator functionality has not been implemented.
 
-## Current status
-
-This project is experimental and is **not yet a usable calculator**. The current
-baseline is a fresh Cargo binary project whose Hello World application compiles
-and runs successfully. Preparation is underway; Stage 1 has not started.
-
-Run the current application with:
+With Rust and the libcosmic system build dependencies installed:
 
 ```sh
-cargo run
+cargo build --locked
+cargo run --locked
 ```
 
-See the [learning plan](docs/LEARNING_PLAN.md) for provisional stages, completion
-criteria, and progress.
+Application ID: `io.github.appcarver.CosmicCalculator`  
+License: `MPL-2.0`  
+Repository: https://github.com/AppCarver/cosmic-calculator

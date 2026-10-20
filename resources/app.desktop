@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=COSMIC Calculator
+Comment=A native calculator for the COSMIC desktop
+Type=Application
+Icon=io.github.appcarver.CosmicCalculator
+Exec=cosmic-calculator %F
+Terminal=false
+StartupNotify=true
+Categories=COSMIC
+Keywords=COSMIC
+MimeType=
